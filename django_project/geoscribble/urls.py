@@ -6,4 +6,5 @@ from django.conf.urls import patterns
 urlpatterns = patterns(
     'geoscribble.views',
     (r'^hello_world/', 'hello_world'),
+    (r'^scribbles/', 'show_scribbles'),
 )
