@@ -1,0 +1,34 @@
+[
+{
+    "pk": 1,
+    "model": "geoscribble.scribbletype",
+    "fields": {
+        "name": "Squiggle"
+    }
+},
+{
+    "pk": 2,
+    "model": "geoscribble.scribbletype",
+    "fields": {
+        "name": "Foo"
+    }
+},
+{
+    "pk": 1,
+    "model": "geoscribble.scribble",
+    "fields": {
+        "scribble_date": "2013-11-14T10:19:29.685Z",
+        "name": "Awesome scribble",
+        "scribble_type": 1
+    }
+},
+{
+    "pk": 2,
+    "model": "geoscribble.scribble",
+    "fields": {
+        "scribble_date": "2013-11-14T10:34:17.263Z",
+        "name": "Awesome scribble",
+        "scribble_type": 1
+    }
+}
+]
