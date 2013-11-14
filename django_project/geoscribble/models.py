@@ -16,6 +16,9 @@ class ScribbleType(models.Model):
         verbose_name_plural = 'Types'
         ordering = ('name',)
 
+    def __unicode__(self):
+        return self.name
+
 
 class Scribble(models.Model):
     """A model for scribbles."""
@@ -31,3 +34,5 @@ class Scribble(models.Model):
         verbose_name_plural = 'Scribbles'
         ordering = ('scribble_date',)
 
+    def __unicode__(self):
+        return self.name
