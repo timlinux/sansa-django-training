@@ -21,5 +21,5 @@ class ScribbleTest(TestCase):
         scribble.save()
         for scribble in Scribble.objects.all():
             print scribble.name
-        message = 'Expected one more doodle after creation'
+        message = 'Expected one more scribble after creation'
         assert Scribble.objects.all().count() > count, message
